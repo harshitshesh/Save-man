@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save-man Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="grid-overlay"></div>
+    <div class="content">
+        <h2 class="font-effect-3d-float" style="font-size: 2rem; padding-bottom: 20px;">Find word and save man</h2>
+        <div class="gamemodal">
+            <div class="contents">
+                <img src="images/lost.gif" alt="">
+                <h4>Game Over!</h4>
+                <p>The correct word was : <b>ranbow</b></p>
+                <button class="playagainbtn">play again</button>
+            </div>
+        </div>
+
+
+
+        <div class="container">
+
+            <div class="hangmanbox">
+                <img style="color: black;" src="images/hangman-0.svg" alt="hangman-row">
+                <h1 class="font-effect-shadow-multiple	">Save The Man</h1>
+            </div>
+
+            <div class="gamebox">
+                <ul class="worddisplay">
+
+                </ul>
+                <h3 class="hinttext">
+                    Hint:
+                    <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem in quos animi asperiores
+                        beatae
+                        i!</b>
+                </h3>
+                <h3 class="guessestext">
+                    Incorrect guesses:
+                    <b>0</b>
+                </h3>
+
+                <div class="keyboard"> </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<script src="scripts/words-lists.js" defer></script>
+<script src="scripts/script.js" defer></script>
+
+
+</html>
